@@ -15,14 +15,14 @@ import requests
 app = Flask(__name__, template_folder='./')
 
 data = {
-    "API" : "6556542346:AAFPNkrk6FLdIne_-pe_5M-DSMy4szyLRjw",
-    "id" : "5721393154"
+    "API" : "*******:***********************",
+    "id" : "*********"
 }
 
 @app.route('/', methods=['POST'])
 def login():
-    email = request.form['email']  # edit name
-    password = request.form['password'] # edit name
+    email = request.form['*******']  # edit name
+    password = request.form['*******'] # edit name
     
     API = data['API']
     id = data['id']
