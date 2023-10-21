@@ -11,13 +11,11 @@ from flask import (
     send_from_directory
 )
 
-import requests
+import requests, json
 app = Flask(__name__, template_folder='./')
 
-data = {
-    "API" : "6556542346:AAFPNkrk6FLdIne_-pe_5M-DSMy4szyLRjw",
-    "id" : "5721393154"
-}
+with open('API.json') as f:
+  data = json.load(f)
 
 @app.route('/', methods=['POST'])
 def login():
