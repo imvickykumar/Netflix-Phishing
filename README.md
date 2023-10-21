@@ -1,17 +1,20 @@
 
-# `Latest Project` : `Dark Web`
+# `Netflix Phishing` *on* `Dark Web`
 
 ```python
 Made with ❤️
 Netflix Phishing Website Hosted on Dark Web
 
-Server:
+Server (ADB):
 Running on Android Phone 24x7 via Termux
 
-Working:
-Steels credentials and sends to my Telegram Bot and on Email
+Working Model:
+Steals credentials and sends to my Telegram Bot and on Email
 
-URL:
+Source Code:
+https://github.com/imvickykumar/Netflix-Phishing
+
+Onion URL:
 w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
 ```
 
